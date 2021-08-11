@@ -20,13 +20,6 @@ const Registration = () => {
 			password_confirmation: values.password_confirmation,
 		};
 
-		// 	axios
-		// 		.post('http://localhost:3001/registrations', user, {
-		// 			withCredentials: true,
-		// 		})
-		// 		.then(resp => console.log(resp))
-		// 		.catch(resp => console.log(resp));
-		// };
 		axios
 			.post(
 				'http://localhost:3001/registrations',
